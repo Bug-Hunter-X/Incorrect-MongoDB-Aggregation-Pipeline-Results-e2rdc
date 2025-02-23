@@ -1,0 +1,2 @@
+# MongoDB Aggregation Pipeline Bug
+This repository demonstrates a common error in MongoDB aggregation pipelines resulting in inaccurate results. The bug involves improper usage of the $match, $group, $sort, and $limit stages, leading to incorrect calculations of the top 10 most frequent values.  The solution provides a corrected pipeline that produces the expected results.  Please refer to the bug.js file for the buggy code and bugSolution.js for the corrected implementation.
